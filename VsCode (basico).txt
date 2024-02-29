@@ -1,0 +1,24 @@
+{
+    //Customizações do VsCode
+    "workbench.colorTheme": "Night Owl Theme",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    
+
+    //Configurações adicionais
+    "symbols.hidesExplorerArrows": false,
+    "files.autoSave": "afterDelay",
+    "explorer.compactFolders": false,
+    "redhat.telemetry.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    //Customizações do editor
+    "editor.fontFamily": "Verdana",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.rulers": [80, 120],
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+   
+}

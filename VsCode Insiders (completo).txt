@@ -1,0 +1,120 @@
+{
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "window.titleBarStyle": "native",
+    "window.commandCenter": true,
+    "explorer.fileNesting.enabled": true,
+    "symbols.hidesExplorerArrows": false,
+
+
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Theme Mix",
+    "workbench.statusBar.visible": true,
+
+
+
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.parameterHints.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "editor.accessibilitySupport": "off",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.fontFamily": "Verdana Pro",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabSize": 2,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+
+
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.patterns": {
+      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+      "tailwind.config.js": "tailwind.config*, postcss.config*",
+      ".env.local": ".env*",
+      ".env": ".env*"
+    },
+
+
+
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsserver.log": "off",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+
+   
+    
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+
+
+   
+
+    "security.promptForLocalFileProtocolHandling": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "files.exclude": {
+      "**\/CVS": true,
+      "**\/.DS_Store": true,
+      "**\/.hg": true,
+      "**\/.svn": true,
+      "**\/.git": true,
+      ".vscode": true
+      // "node_modules": true
+    },
+    
+
+
+    "update.mode": "start",
+    "update.showReleaseNotes": false,
+    
+
+
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+
+
+
+    "files.associations": {
+      ".env.*": "dotenv",
+      ".prettierrc": "json",
+      "*.css": "css"
+    },
+  }
